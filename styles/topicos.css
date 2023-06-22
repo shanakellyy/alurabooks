@@ -1,0 +1,65 @@
+.topicos {
+  background: var(--azul-degrade);
+  padding: 1.5rem 0;
+}
+
+.topicos-titulo {
+  color: var(--branco);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.topicos-lista {
+  list-style-type: none;
+  text-align: center;
+}
+
+.topicos-lista-item {
+  padding: 1rem 1.5rem;
+  background: var(--laranja);
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.topicos-lista-link {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.newsletter {
+  background: var(--branco);
+  padding: 1.5rem;
+}
+
+.newsletter-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--azul-degrade);
+}
+
+.newsletter-text {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--azul-degrade);
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.newsletter-email {
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: var(--azul-degrade);
+  padding: 0.65rem 1.5rem;
+  width: 80%;
+  background: transparent;
+}
+
+.newsletter-email::placeholder {
+  color: var(--azul-degrade);
+  font-size: 1rem;
+  text-align: center;
+}

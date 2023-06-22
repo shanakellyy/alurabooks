@@ -1,0 +1,9 @@
+.footer {
+  padding: 1.5rem;
+  background: var(--cinza-claro);
+}
+
+.footer-text {
+  color: var(--preto);
+  font-size: 1rem;
+}
