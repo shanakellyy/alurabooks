@@ -1,0 +1,89 @@
+.section-title {
+  color: var(--laranja);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.25rem 0 0.5rem;
+  text-align: center;
+  background: var(--branco);
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 0.75rem 0 1rem 0;
+}
+
+.card {
+  border-radius: 10px;
+  background: var(--branco);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 1.25rem 1.5rem 1.5rem;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.section-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-banner-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.section-banner-icons {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.section-banner-title {
+  font-size: 700;
+  color: var(--laranja);
+  font-size: 1rem;
+}
+
+.section-banner-subtitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--azul);
+  padding: 0.5rem 0;
+}
+
+.section-banner-text {
+  font-size: 0.875rem;
+  color: var(--cinza-escuro);
+}
+
+.section-banner-icon {
+  margin: 1rem;
+  align-items: center;
+}
+
+.section-banner-image {
+  margin: 0 0 0 0.5rem;
+}
+
+.section-banner-button {
+  color: var(--branco);
+  text-align: center;
+  font-size: 1rem;
+  font-family: Poppins;
+  font-weight: 700;
+  background: var(--laranja);
+  padding: 1rem 2.2rem;
+  text-decoration: none;
+}

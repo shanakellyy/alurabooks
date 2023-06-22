@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AluraBooks</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -36,6 +41,7 @@
         </ul>
         <img src="assets/logo.svg" alt="logo alurabooks" class="logo" />
       </div>
+
       <div class="container">
         <a href="#" class="icon">
           <img src="assets/favoritos.svg" alt="meus favoritos" />
@@ -48,12 +54,211 @@
         </a>
       </div>
     </header>
+
     <main>
-        <div class="banner">
-            <h1 class="banner-title">Já sabe por onde começar?</h1>
-            <p class="banner-text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-            <input class="banner-pesquisa" type="text" placeholder= "Qual será sua próxima leitura?">
+      <div class="banner">
+        <h1 class="banner-title">Já sabe por onde começar?</h1>
+        <p class="banner-text">
+          Encontre em nossa estante o que precisa para seu desenvolvimento!
+        </p>
+        <input
+          class="banner-pesquisa"
+          type="text"
+          placeholder="Qual será sua próxima leitura?"
+        />
+      </div>
+
+      <!--ÚLTIMOS LANÇAMENTOS-->
+      <section class="section">
+        <h2 class="section-title">Últimos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="assets/lançamentos/ApacheKafka.svg"
+                alt="apache kafka"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Arquitetura.svg" alt="arquitetura" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Construct2.svg" alt="construct" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Gestão.svg" alt="gestão" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Gestão2.svg" alt="gestão" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Javascript.svg" alt="javascript" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Liderança.svg" alt="liderança" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/lançamentos/MetricasAgeis.svg"
+                alt="métricas ágeis"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Nodejs.svg" alt="node js" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Portugol.svg" alt="portugol" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/ReactNative.svg" alt="react" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/Tuning.svg" alt="tuning" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/lançamentos/UX.svg" alt="ux" />
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
+
+        <!--card-->
+        <div class="card">
+          <!--primeira linha-->
+          <div class="section-banner">
+            <!--primeira coluna-->
+            <div class="section-banner-description">
+              <h3 class="section-banner-title">
+                Talvez você também se interesse por...
+              </h3>
+              <h4 class="section-banner-subtitle">Angular 11 e Firebase</h4>
+              <p class="section-banner-text">
+                Construindo uma aplicação integrada com a plataforma do Gogle.
+              </p>
+            </div>
+            <!--segunda coluna-->
+            <img
+              src="assets/escritor1.svg"
+              alt="logo angular 11"
+              class="section-banner-image"
+            />
+          </div>
+          <!--segunda linha-->
+          <div class="section-banner-links">
+            <!--primeira coluna-->
+            <ul class="section-banner-icons">
+              <li>
+                <a href="#" class="section-banner-icon">
+                  <img src="assets/favoritos.svg" alt="meus favoritos" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="section-banner-icon">
+                  <img src="assets/compras.svg" alt="adicionar ao carrinho" />
+                </a>
+              </li>
+            </ul>
+            <!--segunda coluna-->
+            <a href="#" class="section-banner-button">Saiba mais</a>
+          </div>
+        </div>
+      </section>
+
+      <!--MAIS VENDIDOS-->
+      <section class="section">
+        <h2 class="section-title">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="assets/mais vendidos/Acessibilidade.svg"
+                alt="acessibilidade"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/mais vendidos/Angular.svg" alt="angular" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="assets/mais vendidos/Guia Front-end.svg"
+                alt="guia Front-end"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/mais vendidos/MEAN.svg" alt="mean" />
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <!--card-->
+        <div class="card">
+          <!--primeira linha-->
+          <div class="section-banner">
+            <!--primeira coluna-->
+            <div class="section-banner-description">
+              <img src="assets/estrelinhas.svg" alt="cinco estrelas" />
+              <h3 class="section-banner-title">Autora do Mês</h3>
+              <h4 class="section-banner-subtitle">Juliana Agarikov</h4>
+              <p class="section-banner-text">
+                Analista de sistemas e escritora, Juliana é especialista em
+                Front-End.
+              </p>
+            </div>
+            <!--segunda coluna-->
+            <img
+              src="assets/escritora.svg"
+              alt="foto de juliana agarikov"
+              class="section-banner-image"
+            />
+          </div>
+          <!--segunda linha-->
+          <div class="section-banner-links">
+            <!--primeira coluna-->
+            <ul class="section-banner-icons">
+              <li>
+                <a href="#" class="section-banner-icon">
+                  <img src="assets/favoritos.svg" alt="meus favoritos" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="section-banner-icon">
+                  <img src="assets/compras.svg" alt="adicionar ao carrinho" />
+                </a>
+              </li>
+            </ul>
+            <!--segunda coluna-->
+            <a href="#" class="section-banner-button">Saiba mais</a>
+          </div>
+        </div>
+      </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+        },
+      });
+    </script>
   </body>
 </html>
