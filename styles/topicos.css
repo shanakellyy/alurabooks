@@ -56,6 +56,10 @@
   padding: 0.65rem 1.5rem;
   width: 80%;
   background: transparent;
+  color: var(--preto);
+  text-align: center;
+  font-size: 0.9rem;
+  outline: none;
 }
 
 .newsletter-email::placeholder {
@@ -63,3 +67,8 @@
   font-size: 1rem;
   text-align: center;
 }
+
+.newsletter-email:focus::placeholder {
+  color: transparent;
+}
+
